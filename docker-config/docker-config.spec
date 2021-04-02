@@ -3,6 +3,7 @@ Version: 1.0.3
 Release: 1
 Summary: Testes
 License: GPLv2+
+Source0: %{name}-%{version}.tar.gz
 
 
 %description
