@@ -1,0 +1,22 @@
+/var/log/containers/*{
+    # Rotacionamento feito regularmente por dia
+    daily
+
+    # Rotaciona os ultimos 30 arquivos rotacionados
+    rotate 30
+
+    # Copia os arquivos para ser comprimidos e rotacionados
+    copytruncate
+
+    # Comprime os arquivos rotacionados
+    compress
+
+    # Move os arquivos rotacionados para o diretorio indicado
+    olddir /var/log/containers/bkp/
+
+    # Reinicia o rsyslog ao final da rotacao
+    sharedscripts
+	postrotate
+		/usr/bin/systemctl restart rsyslog 2>/dev/null >/dev/null || true
+	endscript
+}
