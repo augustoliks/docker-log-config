@@ -1,5 +1,5 @@
 Name: docker-config
-Version: 1.0.4
+Version: 1.0.5
 Release: 1
 Summary: Testes
 License: GPLv2+
@@ -21,6 +21,7 @@ cp teste.sh %{buildroot}/opt/
 
 
 %changelog
-* Fri Apr 02 2021 Carlos Neto <carlos.augusto@fotosensores.com> 1.0.4-1
+* Fri Apr 02 2021 Carlos Neto <carlos.augusto@fotosensores.com> 1.0.5-1
 - new package built with tito
+
 
