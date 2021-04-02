@@ -1,5 +1,5 @@
 Name: docker-config
-Version: 1.0.1
+Version: 1.0.2
 Release: 1
 Summary: Testes
 License: GPLv2+
@@ -23,6 +23,9 @@ cp teste.sh %{buildroot}/opt/
 
 
 %changelog
+* Fri Apr 02 2021 Carlos Neto <carlos.neto.dev@gmail.com> 1.0.2-1
+- bug: inserted rpm prep (carlos.neto.dev@gmail.com)
+
 * Fri Apr 02 2021 Carlos Neto <carlos.neto.dev@gmail.com> 1.0.1-1
 - new package built with tito
 
