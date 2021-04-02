@@ -1,8 +1,8 @@
 Name: docker-config
-Version: 1.0.3
+Version: 1.0.4
 Release: 1
 Summary: Testes
-License: Free
+License: GPLv2+
 # URL: https://github.com/augustoliks/docker-log-config
 # Source: 
 
@@ -18,3 +18,9 @@ cp teste.sh %{buildroot}/opt/
 
 %files
 /opt/teste.sh
+
+
+%changelog
+* Fri Apr 02 2021 Carlos Neto <carlos.augusto@fotosensores.com> 1.0.4-1
+- new package built with tito
+
