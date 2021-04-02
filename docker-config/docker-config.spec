@@ -3,8 +3,10 @@ Version: 1.0.1
 Release: 1
 Summary: Testes
 License: GPLv2+
-# URL: https://github.com/augustoliks/docker-log-config
-# Source: 
+
+
+%prep
+%setup -q
 
 
 %description
