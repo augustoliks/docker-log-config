@@ -1,0 +1,1 @@
+rpmdev-newspec	
