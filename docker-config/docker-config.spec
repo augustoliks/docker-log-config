@@ -5,12 +5,12 @@ Summary: Testes
 License: GPLv2+
 
 
-%prep
-%setup -q
-
-
 %description
 testes
+
+
+%prep
+%setup -q
 
 
 %install
