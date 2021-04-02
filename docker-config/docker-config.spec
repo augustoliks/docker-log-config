@@ -1,5 +1,5 @@
 Name: docker-config
-Version: 1.0.3
+Version: 1.0.4
 Release: 1
 Summary: Testes
 License: GPLv2+
@@ -24,6 +24,9 @@ cp teste.sh %{buildroot}/opt/
 
 
 %changelog
+* Fri Apr 02 2021 Carlos Neto <carlos.neto.dev@gmail.com> 1.0.4-1
+- bug: inserted rpm prep (carlos.neto.dev@gmail.com)
+
 * Fri Apr 02 2021 Carlos Neto <carlos.neto.dev@gmail.com> 1.0.3-1
 - bug: inserted rpm prep (carlos.neto.dev@gmail.com)
 
