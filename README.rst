@@ -24,13 +24,13 @@ This project was publish in RPM package format, available in **Copr Repositories
 
 To install ``docker-log-config`` package, first, enable this follow Copr:
 
-.. shell::
+.. code:: shell
 
     dnf copr enable augustoliks/docker-log-config
 
 After enable ``augustoliks/docker-log-config``, this ``docker-log-config`` already avaible to install.
 
-.. shell::
+.. code:: shell
 
     dnf install docker-log-config
 
@@ -39,7 +39,7 @@ How it Works
 
 Containers logs will be persist in disk. Each day (midnight specifically), log files are rotated and compressed. The last 30 log files per Container will be preserved.
 
-.. shell::
+.. code:: shell
 
     /var/log/containers/<CONTAINER-NAME>.log
     /var/log/containers/bkp/<CONTAINER-NAME>.{1..30}.log.gz
@@ -49,6 +49,6 @@ Developer Notes
 
 - Create new Release:
 
-.. shell::
+.. code:: shell
     
     tito tag
