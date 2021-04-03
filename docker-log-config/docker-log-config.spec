@@ -1,5 +1,5 @@
 Name: docker-log-config
-Version: 1.0.1
+Version: 1.0.2
 Release: 1
 BuildArch: noarch
 Packager: Carlos Neto <carlos.augusto@fotosensores.com>
@@ -61,6 +61,9 @@ echo "
 "
 
 %changelog
+* Fri Apr 02 2021 Carlos Neto <carlos.neto.dev@gmail.com> 1.0.2-1
+- test remove clean (carlos.neto.dev@gmail.com)
+
 * Fri Apr 02 2021 Carlos Neto <carlos.neto.dev@gmail.com> 1.0.1-1
 - new package built with tito
 
