@@ -52,3 +52,9 @@ Developer Notes
 .. code:: shell
     
     tito tag
+
+- Test RPM build:
+
+.. code:: shell
+    
+    tito rpm
