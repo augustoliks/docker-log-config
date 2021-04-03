@@ -1,5 +1,5 @@
-.. image:: https://copr.fedorainfracloud.org/coprs/augustoliks/docker-log-config/package/docker-config/status_image/last_build.png
-    :target: https://copr.fedorainfracloud.org/coprs/augustoliks/docker-log-config/package/docker-config/
+.. image:: https://copr.fedorainfracloud.org/coprs/augustoliks/docker-log-config/package/docker-log-config/status_image/last_build.png
+    :target: https://copr.fedorainfracloud.org/coprs/augustoliks/docker-log-config/package/docker-log-config/
 
 docker-server-config
 ====================
