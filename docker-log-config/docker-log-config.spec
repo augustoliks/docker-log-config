@@ -1,5 +1,5 @@
 Name: docker-log-config
-Version: 1.0.2
+Version: 1.0.0
 Release: 1
 BuildArch: noarch
 Packager: Carlos Neto <carlos.augusto@fotosensores.com>
