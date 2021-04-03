@@ -1,2 +1,2 @@
 srpms:
-	rpmbuild -bb docker-config/docker-log-config.spec
+	rpmbuild -bb docker-log-config/docker-log-config.spec
