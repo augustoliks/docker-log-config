@@ -65,6 +65,5 @@ echo "
 - new package built with tito
 
 
-
-%clean
-rm -rf $RPM_BUILD_ROOT
+# %clean
+# rm -rf $RPM_BUILD_ROOT
