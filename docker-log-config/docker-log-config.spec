@@ -40,7 +40,7 @@ cp logrotate/docker-server-config %{buildroot}/%{logrotate_dir}/
 
 %{docker_dir}/daemon.json
 
-etc/rsyslog.dlc.conf
+/etc/rsyslog.dlc.conf
 %{rsyslog_dir}/20-dlc-base.conf
 %{rsyslog_dir}/30-dlc-persist.conf
 
